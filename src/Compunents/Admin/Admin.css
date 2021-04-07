@@ -1,0 +1,36 @@
+.admin{
+    display: flex;
+    margin: 10px 10px;
+
+}
+.link{
+ width: 20%;
+ height: 550px;
+ padding: 23px;
+ text-decoration: none;
+ background-color: black;
+ color: white;
+
+}
+.admin-ul{
+    text-decoration: none;
+    color: red;
+    list-style: none;
+}
+
+.bazar{
+     font-size: 20px;
+    text-decoration: none;
+    color: blue;  
+    padding: 20px;
+}
+.product{
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;  
+}
+
+.details{
+ width: 70%;
+ margin-left: 50px;
+}

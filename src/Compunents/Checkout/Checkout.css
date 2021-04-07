@@ -1,0 +1,18 @@
+.checkout{
+   
+    align-items: center;
+}
+.checkout table tr{
+    background-color: lightgrey;
+    
+    border: 1px solid white;
+}
+.checkout table tr th{
+    padding: 20px 20px;
+}
+.checkout table tr td{
+    padding: 20px 20px;
+}
+.checkout table{
+    align-items: center;
+}

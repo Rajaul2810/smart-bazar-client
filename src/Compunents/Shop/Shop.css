@@ -1,0 +1,20 @@
+.container1{
+ height: 400px;
+ width: 250px;
+ border: 1px solid lightgrey;
+ border-radius: 10px;
+ box-shadow: 5px 5px 5px lightgrey;
+ margin-top: 10px;
+ text-align: center;
+ display: flex;
+ justify-content: space-around;
+}
+.img img{
+    height: 200px;
+    width: 200px;
+   
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
