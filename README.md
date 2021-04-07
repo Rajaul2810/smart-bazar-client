@@ -17,7 +17,7 @@ I used :
    ## image hosting
     1. imgBB third party server
 
-    ## live site :
+    ## live site : https://smart-bazar-e26e5.web.app/
    
   ## authentication firebase
    1. sign In (google)

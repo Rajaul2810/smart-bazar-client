@@ -11,7 +11,7 @@ const Checkout = () => {
     console.log(_id);
     console.log(data);
     useEffect(() => {
-        fetch(`http://localhost:4000/product/${_id}`)
+        fetch(`https://warm-harbor-90775.herokuapp.com/product/${_id}`)
             .then(res => res.json())
             .then(data => setData(data[0]))
     }, [_id])
@@ -23,7 +23,7 @@ const Checkout = () => {
       const orderDetails = {...loggedInUser, products: data, orderTime: new Date()};
       console.log(orderDetails);
     //    setData(orderDetails)
-      fetch('http://localhost:4000/addOrder',{
+      fetch('https://warm-harbor-90775.herokuapp.com/addOrder',{
         method:'POST',
         headers: {'Content-type':'Application/json'},
           body:JSON.stringify(orderDetails)

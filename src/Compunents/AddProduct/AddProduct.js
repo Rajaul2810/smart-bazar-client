@@ -37,7 +37,7 @@ const AddProduct = () => {
     }
     const handleAddProduct = (e)=>{
         const newProduct = {...product}
-        fetch('http://localhost:4000/addProducts',{
+        fetch('https://warm-harbor-90775.herokuapp.com/addProducts',{
             method:'POST',
             headers: {'Content-type':'Application/json'},
             body:JSON.stringify(newProduct)
