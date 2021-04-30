@@ -1,6 +1,13 @@
 My Project Name: Smart Bazar
 This is a Full-Stack project..
-I used :
+
+## Features
+1. A Single-page shopping web application and login system google.
+2. People can select and check out their products.
+3. Admin can add products and delete products. 
+
+
+
  ## fond-end
   1. HTML
   2. CSS
